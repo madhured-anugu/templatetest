@@ -37,6 +37,8 @@
     "@angular/platform-browser": "^12.0.0",
     "@angular/platform-browser-dynamic": "^12.0.0",
     "@angular/router": "^12.0.0",
+    "@bds/bds-core": "0.9.0-pr.152989.829765",
+    "@bds/bds-ng": "0.9.0-pr.152989.829765",
     "@nrwl/angular": "12.4.0",
     "interactjs": "^1.10.11",
     "rxjs": "~6.6.0",
