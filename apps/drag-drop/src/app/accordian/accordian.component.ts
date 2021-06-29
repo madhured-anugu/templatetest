@@ -34,8 +34,8 @@ export class AccordianComponent implements OnInit {
       {component: TextinputComponent, data: {'type': 'textinput', used: 2}},
       {component: HeaderComponent, data: {'type': 'header', used: 2}},
       {component: ButtonComponent, data: {'type': 'button', used: 2}},
-      {component: LinkComponent, data: {'type': 'Link', used: 2}},
-      {component: DropdownComponent, data: {'type': 'Dropdown', used: 2}},
+      {component: LinkComponent, data: {'type': 'link', used: 2}},
+      {component: DropdownComponent, data: {'type': 'dropdown', used: 2}},
       {component: LabelComponent, data: {'type': 'label', used: 2}}
     ]
   }

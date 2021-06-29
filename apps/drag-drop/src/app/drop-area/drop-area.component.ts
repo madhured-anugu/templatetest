@@ -1,6 +1,3 @@
-import { ButtonComponent } from './../controls/button/button.component';
-import { DropdownComponent } from './../controls/dropdown/dropdown.component';
-import { TextinputComponent } from './../controls/textinput/textinput.component';
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @angular-eslint/component-selector */
 import {
@@ -25,10 +22,7 @@ export class DropAreaComponent implements OnInit {
   drop = '';
 
   typeMap: any = {
-    tabs: { component: FullTabComponent },
-    textinput: {component: TextinputComponent},
-    button: {component: ButtonComponent},
-    dropdown: {component: DropdownComponent}
+    tabs: { component: FullTabComponent }
   };
 
   @ViewChild('viewContainerRef', { read: ViewContainerRef })
